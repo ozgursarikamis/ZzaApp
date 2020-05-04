@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace Zza.Entities
+﻿namespace Zza.Entities
 {
+    // Implicit data contract
     public class OrderStatus
     {
         public int Id { get; set; }
