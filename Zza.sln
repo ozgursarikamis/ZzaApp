@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zza.Services", "Zza.Service
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zza.SelfHost", "Zza.SelfHost\Zza.SelfHost.csproj", "{4E8ED251-82BD-4F93-9687-6DF3D08D71D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zza.IISHost", "Zza.IISHost\Zza.IISHost.csproj", "{58E4A625-BA66-4CDE-8F35-3C1EF49770FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{4E8ED251-82BD-4F93-9687-6DF3D08D71D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E8ED251-82BD-4F93-9687-6DF3D08D71D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E8ED251-82BD-4F93-9687-6DF3D08D71D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58E4A625-BA66-4CDE-8F35-3C1EF49770FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58E4A625-BA66-4CDE-8F35-3C1EF49770FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58E4A625-BA66-4CDE-8F35-3C1EF49770FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58E4A625-BA66-4CDE-8F35-3C1EF49770FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
