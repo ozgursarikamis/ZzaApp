@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Zza.ClientConsole.ZzaServices;
 
 namespace Zza.ClientConsole
 {
@@ -19,6 +18,12 @@ namespace Zza.ClientConsole
             //}
 
             var p = new ZzaProxy();
+            if (p.ClientCredentials != null)
+            {
+                p.ClientCredentials.Windows.ClientCredential.UserName = "XPS9100\\test";
+                p.ClientCredentials.Windows.ClientCredential.Password = "2644";
+            }
+
             var _products = await p.GetProductsAsync();
             foreach (var _p in _products)
             {
